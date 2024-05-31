@@ -1,0 +1,427 @@
+
+
+  <!-- STAGE I FOR THIS PAGE IS COMPLITTED.THIS PAGE AWAITS BASIC CSS FROM STAGE TWO -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sell</title>
+
+    <link rel="stylesheet" href="../CSS/mdm.css">
+    <link rel="stylesheet" href="../CSS/inline.css">
+</head>
+
+<body>
+
+ <!-- HERE GOES THE HEADER ,IKO NA TITTLE NA NAVIGATION BAR -->
+ <div class="header">
+
+    <header class="mainheader">
+
+        <P class="logo"> mdm </P>
+
+        <div class="sidebar">
+
+                <a href="../Home.html">HOME</a>
+
+                <!-- onclick of the seach button the side navigation will open up which has the side button -->
+                
+                <button id="button">
+                    &#9776;
+                </button>
+
+        </div>
+
+    </header>
+        
+       
+
+           
+<div class="side" id="side">
+               
+<div class="sidenavigation">
+<!-- the contents of the home button stays here.The button is visible in all screen sizes -->
+
+                                                    <p class="cancel" id="cancel">Cancel</p>
+
+                                                    <P class="logo"> mdm </P>
+
+                                                    <p>Search</p>
+                                                    <input type="text" name="searchbar" placeholder="eg mdm founder" class="search">
+
+                                                    <a href="../UPDATES/update.html">UPDATES.</a>
+
+                                                    <a href="../LIFESTYLES/lifestyles.html">LIFESTYLE.</a>
+
+                                                    <a href="../MARKET/market.html">MARKET.</a>
+
+                                                    <a href="../LIFESTYLES/debate.html">DEBATE</a>
+
+                                                    <a href="../about.html">About MDM</a> 
+
+                                                    <a href="../MARKET/sell.html">SELL</a>
+
+                                                    <a href="sms:0711581675">advertise on mdm</a>
+
+                                                    <a href="sms:0711581675">Work with us</a>
+
+                                                    <a href="http://www.instagram.com/dacotyindustry?igsh=MTRhZGE3N3MwZ282bQ==">daCotyINDUSTRY</a>
+
+            
+                                                     
+                                                        <div class="sidebarcontacts">
+                                                            <a href="https://chat.whatsapp.com/BjYHA7zTwzN0EA0cdZJnzd">
+                                                                <button><img src="../images/icons8-whatsapp-35.png" alt=""></button>
+                                                            </a>
+                                                            
+                                                            <a href="http://www.instagram.com/dacotyindustry?igsh=MTRhZGE3N3MwZ282bQ==">
+                                                                <button><img src="../images/icons8-instagram-35.png" alt=""></button>
+                                                            </a>
+                                                            
+
+                                                            <a href="https://x.com/daCotyINDUSTRY?t=S8dPyqv7g8JiKjWufrcgBQ&s=09">
+                                                                <button><img src="../images/icons8-twitterx-35.png" alt=""></button>
+                                                            </a>
+                                                            
+                                                        
+                                                            <a href="tel:0711581675">
+                                                                <button><img src="../images/icons8-phone-35.png" alt=""></button>
+                                                            </a>
+
+                                                            <a href="sms:0711581675">
+                                                                <button><img src="../images/icons8-messages-35.png" alt=""></button>
+                                                            </a>
+                                                            
+                                                        </div>
+
+
+                                                    <a id="user">My Account</a>
+                    </div>
+                
+               
+
+</div>
+          
+
+       
+
+        <!-- <nav class="nav" id="nav">
+
+            <a href="../UPDATES/update.html"><button class="btn1">UPDATES</button></a>
+
+            <a href="../LIFESTYLES/lifestyles.html"><button class="btn2">LIFESTYLE</button></a>
+
+            <a href="../MARKET/market.html"><button class="btn3">MARKET</button></a>
+
+        </nav> -->
+</div>
+
+
+<!-- END OF HEADER .START OF THE SELL FORM. -->
+
+
+
+<div class="signUp" id="signUp">
+
+    <div class="logIn" id="logIn">
+        <p class="usermdm">mdm</p>
+        <p>ENTER USERNAME</p>
+        <input type="text" name="username" placeholder="mdm creators">
+        <p>ENTER PASSWORD</p>
+        <input type="password" name="password" placeholder="confidential">
+        <a href="">LOGIN</a>
+        <a href="">Continue with GOOGLE</a>
+        <p>Dont have an account?<a id="option">Signup..</a></p>
+        <p id="cancel2">Cancel</p>
+    </div>
+
+    <div class="Signin" id="Signin">
+        <p class="usermdm">mdm</p>
+        <p>ENTER USERNAME</p>
+        <input type="text" name="username" placeholder="mdm creators">
+        <p>ENTER EMAIL</p>
+        <input type="email" name="email" placeholder="mdmcoder@gmail.com">
+        <p>ENTER PASSWORD</p>
+        <input type="password" name="password" placeholder="confidential">
+        <a href="">SIGNUP</a>
+        <a href="">Continue with GOOGLE</a>
+        <p>Already have an account?<a id="option2">login..</a></p>
+        <p id="cancel3">Cancel</p>
+    </div>
+
+</div>
+
+
+    <div class="sellform">
+           
+       
+
+
+        <form action="sell.php" method="post" class="form" enctype="multipart/form-data">
+
+            <h3 style="text-align: center;">SELL ANYTHING,SELL EVERYTHING</h3>
+
+
+            <div class="category">
+
+           
+                <p>select category</p>
+                
+                <select name="category" id="" class="sellcategories" name="category">
+
+                    <option value="">select</option>
+                    <option value="phones">PHONES AND COMPUTERS</option>
+                    <option value="electronics">ELECTRONICS</option>
+                    <option value="fasion">FASHION & STYLES</option>
+                    <option value="food">FOODS</option>
+                    <option value="stationery">STATIONERY</option>
+                    <option value="realEstate">REAL ESTATE</option>
+                    <option value="household">HOME ACCESSORIES</option>
+                    <option value="sports">SPORTS</option>
+                    <option value="transportation">TRANSPORTATION</option>
+                    <option value="medics">MEDICS</option>
+                    <option value="furniture">FURNITURE</option>
+                    <option value="construction">BUILDING & CONSTRUCTION</option>
+                    <option value="services">SERVICES</option>
+                                 <!-- 
+                                    LAUNDRY
+                                    SHAVING
+                                    ELECTRICAL INSTALLATION
+                                    CLEANING SERVICES
+                                    GARDENING
+                                    PLUMBING
+                                    AGRICULTURE
+                                    CONSTRUCTION
+                                  -->
+                    <option value="other">OTHER</option>
+                    <option value=""> <a href="">See Product Requests</a></option>
+                    <!-- THIS POPS A WINDOW THAT SHOWS ALL PRODUCT REQUESTS -->
+                   
+                </select>
+                
+            </div>
+            <br>
+
+            <p style="width: 40%;">Enter full tittle of your product or service</p>
+            <input type="text" placeholder="jina la bidhaa au huduma" class="inputdetails"  name="title">
+            <br>
+
+            <p style="width: 40%;">price</p>
+            <input type="text" placeholder="bei ya mwisho ya bidhaa au huduma"  class="inputdetails" name="price">
+            <br>
+            <br>
+
+            <p style="width: 40%;">trade barter system? IF YES!</p>
+            <textarea name="" id="" cols="30" rows="10" placeholder="weka taarifa kamili za bidhaa au huduma ya mabadilishano" class="barteroption"></textarea>
+             <br>
+
+            <p style="width: 40%;">Condition(for products only)</p>
+            <select name="productcondition" id="" class="sellcategories">
+                <option value="">select</option>
+                <option value="new">NEW</option>
+                <option value="used">USED</option>
+                <option value="refurbished">REFURBISHED</option>
+            </select>
+            <br>
+
+            <p style="width: 40%;">location</p>
+            <input type="text" placeholder="mkoa,wilaya,sehemu inayofahamika"  class="inputdetails" name="location">
+            <br>
+
+            
+
+            
+            
+
+            <p style="width: 40%;">quantity</p>
+            <input type="number"  class="inputdetails" name="quantity">
+            <br>
+
+            <p style="width: 40%;">contacts</p>
+            <input type="tel" placeholder="normal phone numbers"  class="inputdetails" name="xycontacts">
+            <input type="tel" placeholder="Whatsapp"  class="inputdetails" name="contacts">
+            <br>
+             
+            <p style="width: 40%;">taarifa za ziada</p>
+            <textarea name="descriptions" id="" cols="40" rows="10" placeholder="further descriptions"></textarea>
+            <br>
+
+            <p style="width: 40%;">Add images</p>
+
+            <div class="photos">
+
+
+              <!-- php enters the chat -->
+                <form action="sell.php" method="post" enctype="multipart/form-data">
+                    
+                    <input type="file" name="image" id="image">
+                    <!-- <input type="submit" value="Upload Image" name="submit"> -->
+                  </form>
+                  <input type="submit" value="Submit">
+
+            </div>
+
+
+
+
+            <!-- at this juncture the BE A GURU portal will open -->
+            <!-- THIS CHECKS IF THE ACCOUNT IS ACTIVATED -->
+
+            <div class="activation">
+                ACTIVATE YOUR ACCOUNT TO CONTINUE
+                <p>THIS ACTION HAPENS ONLY ONCE IN A LIFETYME</p>
+                <button>PAY 500TSH TO ACTIVATE YOUR ACCOUNT</button>
+
+                <!-- by clicking the activate button the PAYMENT METHOD coded below will be unleashed -->
+
+                <!-- IF THE ACCOUNT IS ACTIVATED,THE GURU PORTAL OPENS -->
+            </div>
+
+            <div class="paymentoptions">
+                <h5>WITH ONE PAYMENT OPTION YOU CAN SELL UP TO A MILLION PRODUCTS!</h5>
+                <p>CHOOSE PAYMENT STRATEGY</p>
+                <ol>
+                    <li>1000/= one month nationalwise</li>
+                    <li>5000/= three months nationalwise</li>
+                    <li>15000/= one year nationalwise</li>
+
+                    <li>10000/= one month internationally</li>
+                    <li>30000/= three months internationally</li>
+                    <li>50000/= one year internationally</li>
+                </ol>
+
+                <P>CHOOSE PAYMENT METHOD</P>
+                <!-- THIS WILL BE MODIFIED FOR INTERNATIONAL OPTIONS -->
+
+                <ul>
+                    <li>CRDB</li>
+                    <li>NMD</li>
+                    <li>TigoPesa</li>
+                    <li>M-Pesa</li>
+                    <li>Airtel Money</li>
+                </ul>
+            </div>
+
+            <div class="selltomdm">
+                <p>for very quick purchases 
+                    <a href="sms:0711581675">
+                        <button style="padding: 5px;background-color: gold;
+                        color: green;border: none;border-radius: 4px;">sell to mdm STORE</button>
+                    </a>
+                </p>
+
+               
+
+            </div>
+
+
+ 
+            
+
+            <!-- by clicking the submit button the js will check if the user is loged in -->
+            <!-- FOR LOCAL SELLERS YOU DONT NEED TO HAVE AN ACTIVATED ACCOUNT!,you have to be logged in tho -->
+            
+        </form>
+     
+       <!-- <div class="appearance">
+         before being posted,the client will see the appearance of their product 
+        <p style="display: inline;position:absolute;bottom:  10px;right: 10px;">
+            <a style="color: white;">cross your boundaries? </a><button>SUBMIT</button> 
+        </p>
+
+       </div> -->
+
+    </div>
+
+  <!-- the sign in and log in will flush by here alternatively
+thanks to javascript -->
+    
+
+    <div class="signUp">
+
+        <div class="logIn">
+            <p>ENTER USERNAME</p>
+            <input type="text" name="username" placeholder="mdm creators">
+            <p>ENTER PASSWORD</p>
+            <input type="password" name="password" placeholder="confidential">
+            <a href="">LOGIN</a>
+            <p>Dont have an account?<a href="">Signup..</a></p>
+        </div>
+
+        <div class="Signup">
+            <p>ENTER USERNAME</p>
+            <input type="text" name="username" placeholder="mdm creators">
+            <p>ENTER EMAIL</p>
+            <input type="email" name="email" placeholder="mdmcoder@gmail.com">
+            <p>ENTER PASSWORD</p>
+            <input type="password" name="password" placeholder="confidential">
+            <a href="">SIGNUP</a>
+            <a href="">Continue with GOOGLE</a>
+            <p>Already have an account?<a href="">login..</a></p>
+        </div>
+
+    </div>
+
+
+<!-- end of boby,starting of quick links and FOOTER -->
+
+      <div class="link">
+        
+
+        <div class="links">
+             
+            <a href="../Home.html">HOME</a>
+        
+            <a href="../UPDATES/update.html">UPDATES.</a>
+            
+            <a href="../LIFESTYLES/lifestyles.html">LIFESTYLE.</a>
+        
+            <a href="../MARKET/market.html">MARKET.</a>
+
+            <a href="../MARKET/sell.html">SELL</a>
+
+            <a href="../LIFESTYLES/debate.html">DEBATE</a>
+
+            <a href="../about.html">About MDM</a>
+
+            <a href="sms:0711581675">advertise on mdm</a>
+
+            <a href="sms:0711581675">Work with us</a>
+            
+        </div>
+
+    </div>
+
+<!-- MY FOOTER -->
+    <footer>
+        <a href="http://www.instagram.com/dacotyindustry?igsh=MTRhZGE3N3MwZ282bQ==">daCotyINDUSTRY</a>
+        <P>&copy;2024</P>
+        <P>All rights reserved</P>
+
+        <div class="contacts">
+            <a href="https://chat.whatsapp.com/BjYHA7zTwzN0EA0cdZJnzd"> 
+                <button><img src="../images/icons8-whatsapp-35.png" alt=""></button></a>
+           
+          
+            <a href="http://www.instagram.com/dacotyindustry?igsh=MTRhZGE3N3MwZ282bQ==">  
+                <button><img src="../images/icons8-instagram-35.png" alt=""></button></a>
+
+            <a href="https://x.com/daCotyINDUSTRY?t=S8dPyqv7g8JiKjWufrcgBQ&s=09"> <button><img src="../images/icons8-twitterx-35.png" alt=""></button></a>
+
+           
+            <!-- <button><img src="../mdm/images/gmail-48.png" alt=""></button> -->
+
+            <a href="tel:+255711581675"> <button><img src="../images/icons8-phone-35.png" alt=""></button></a>
+            <a href="sms:+255711581675"><button><img src="../images/icons8-messages-35.png" alt=""></button></a>
+            
+        </div>
+        
+    </footer>
+
+    <script src="../js/mdm.js"></script>
+    
+</body>
+</html>
