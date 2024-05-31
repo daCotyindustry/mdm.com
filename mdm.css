@@ -1,0 +1,1124 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+a{
+  color: green;
+}
+
+body{
+    
+    display: block;
+    
+
+    width: 100vw;
+    /* max-width: fit-content; */
+    height: 100vh;
+    
+
+    overflow-x: hidden;
+}
+
+.mainheader{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 30px 15px; */
+    background-color: green;
+    color: white;
+}
+
+.logo{
+    width: 70%;
+    font-family: 'Brush Script MT' ,'Brush Script Std','monotype script','cursive';
+    font-size: 600%;
+    margin-left: 20px;
+}
+
+.usermdm{
+  font-family: 'Brush Script MT' ,'Brush Script Std', cursive;
+        font-size: 600%;
+        text-align: center;margin-bottom: 55px;
+        margin-top: 20px;
+}
+
+ 
+
+#button{
+
+    font-size: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.sidebar{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0 ;
+    /* background-color: blueviolet; */
+    margin: auto;
+    
+}
+
+.sidebar a{
+
+    color: white;
+    margin-top: 15px;
+    margin-left: 50PX;
+
+}
+
+/* HIZI NI ZILE SIDE NAVIGATION AMBAZO ZINA APPEAR AND DISSAPPEAR */
+
+.side{
+    display: flex;
+    justify-content: end;
+    width: 100vw;
+    height: 85vh;
+    display: none;
+    /* background-color: rgba(128, 128, 128, 0.498); */
+
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.29),transparent,transparent,
+    transparent,transparent) , url(../images/bitch.jpg) no-repeat fixed center center;
+
+    background-size: cover;
+    background-position: center;
+
+    /* background-image: url(../images/maxresdefault\(0\).jpg); */
+    /* position: fixed; */
+    position: relative;
+    
+}
+
+.cancel{
+    display: flex;
+    position: relative;
+     left: 80%;
+     top: 10px;
+     margin-bottom: 2px;
+}
+
+.search{
+    width: 80%;
+    margin-left: 30px;
+    height: 30px;
+    border-radius: 8px;
+    padding-left: 5px;
+}
+
+.sidenavigation{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* padding-top: 10%; */
+    margin-right: 50px;
+    
+    
+    text-align: center;
+    width: 30%;
+    height: max-content;
+    padding-bottom: 40px;
+  /* display: none; */
+    /* background-color: rgb(4, 112, 4); */
+
+    background: linear-gradient(to bottom right,rgb(3, 112, 3),rgb(4, 112, 4),rgb(6, 171, 6));
+    color: white;
+    top: -75px;
+
+    border-radius: 20px;
+
+}
+
+.sidenavigation a{
+    color: white;
+    margin-top: 10px;
+}
+
+.sidebarcontacts button{
+    border: none;
+    background-color:  rgb(4, 112, 4) ;
+    margin-top: 15px;
+
+}
+
+/* END OF FLEX BOXES */
+
+
+.nav{
+   
+     
+    /* background-color: rgba(128, 128, 128, 0.395); */
+    background-image: url(../images/beach6.jpg);
+    background-position: top;
+    /* background-size: cover; */
+   margin: 5px 10px;
+   padding-left: 9%;
+   
+}
+
+.nav a{
+    color: white;
+    
+
+}
+
+            .btn1{
+                color: white;
+                /* background-color: red; */
+                background: linear-gradient(to bottom right,red, red);
+                height: 60px;
+                width: 16.5%;
+                border-radius: 10px 25px 10px 25px;
+                border: none;
+                padding-right: 10px;
+                margin-left: 10%;
+            }
+
+            .btn2{
+                color: white;
+                background-color: blueviolet;
+                height: 60px;
+                width: 16.5%;
+                border-radius: 20px ;
+                border: none;
+                margin-left: 10%;
+            }
+
+            .btn3{
+                color: white;
+                background-color: rgb(231, 197, 6);
+                height: 60px;
+                width: 16.5%;
+                border-radius: 25px 10px 25px 10px ;
+                border: none;
+                margin-left: 10%;
+                
+            }
+
+.flexbox{
+
+    border: 2px solid green;
+    margin: 0 35% 0 5%;
+    height: 70%;
+    overflow: hidden;
+    background-color: white;
+    display: block;
+
+    border-radius: 10px;
+
+}
+
+.noticeboard{
+  height: 70%;
+  width: 27%;
+  border: 2px solid green;
+  display: flex;
+  position: absolute;
+
+  
+  
+  right: 34px;
+  top: 35%;
+
+  background-image: url(../images/fall.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border-radius: 4px;
+  /* display: none; */
+}
+
+.notice{
+   backdrop-filter: blur(10px);
+   box-shadow: 0 0 30px rgba(227,228,237,0.37);
+   border: 2px solid rgba(225,225,225,0.18);
+  color: whitesmoke;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+
+  margin-top: 5px;
+}
+
+.noticeboard2{
+  position: -webkit-sticky;
+
+  
+  top: 10px;
+  padding: 5px;
+  background-color: #8baee2;
+  border: 2px solid #4CAF50;
+  height: 600px;
+
+  width: 250px;
+
+  position: sticky;
+
+  margin-left: 58px;
+  margin-bottom: 50px;
+
+  background-image: url(../images/statham.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border-radius: 4px;
+
+}
+
+.noticeboard2container{
+  /* background-color: red; */
+  height: 900px;
+ 
+}
+
+/* flex container images */
+
+.debate{
+    height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(#0001,#000);
+}
+
+.conect{
+    
+   height: 75vh;
+   
+    width: 100%;
+    object-fit: cover;
+     
+    position: relative;
+ 
+}
+
+/* GRADING IMAGES TEST */
+
+.grading{
+  position: absolute;}
+
+.gradient2{
+ 
+  background-image: linear-gradient(to top,rgb(0, 0, 0), transparent,transparent);
+  position: relative;
+   height: 100%;
+   width: 100%;
+   opacity: 90%;
+
+   top: 0;
+   left: 0;
+
+
+}
+
+.imagine{
+  border: green solid 2px;
+  position: absolute;
+ 
+}
+
+
+.grad{
+  height: 200px;
+   width: 300px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.flex1{
+    height: 75vh;
+    width: 100%;
+   
+}
+
+
+
+/* SIGNUP AND REGISTRATION PORTALS */
+
+
+.signUp{
+    width: 100vw;
+    height: 100%;
+
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.877);
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    display: none;
+}
+
+.signUp a{
+  color: white;
+}
+
+.logIn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: green;
+    width: 30%;
+    height: 80%;
+    border-radius: 15px;
+    padding-top: 20px;
+    line-height: 45px;
+    margin-top: 5px;
+
+    /* display: none; */
+
+    color: white;
+
+}
+
+.Signin{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: green;
+    width: 30%;
+    height: 90%;
+    border-radius: 15px;
+    padding-top: 10px;
+    line-height: 35px;
+    margin-top: 15px;
+
+    color: white;
+
+    display: none;
+
+
+}
+
+.Signin input{
+  width: 65%;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+  padding-left: 10px;
+  margin-bottom: 30px;
+  line-height: 30px;
+  
+}
+
+.logIn input{
+
+  width: 65%;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+
+
+/*  GRAND CONTAINER */
+
+.container{
+ 
+    /* background-color: green; */
+    /* height: 150vh; */
+    min-height: fit-content;
+    
+    margin: 0 40px;
+    font-size: larger;
+    padding: 20px 40px;
+}
+
+/* home container */
+
+.homecontainer{
+ 
+  /* background-color: green; */
+  /* height: 150vh; */
+  min-height: fit-content;
+  
+  margin: 0 0 0 27%;
+  font-size: larger;
+  padding: 5px 3px;
+
+   position: absolute;
+  top: 100%;
+}
+/* end of home container */
+
+
+.updates{
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+    margin-top: 40px;
+    /* background-color: aqua; */
+}
+
+.display{
+    /* background-color: rgba(11, 240, 11, 0.934); */
+    width: 40%;
+    height: 250px;
+    position: relative;
+    border: 2px solid green;
+    border-radius: 8px;
+    overflow: hidden;
+
+
+}
+
+.contents{
+    width: 60%;
+    font-size: large;
+    margin-left: 5px;
+    padding-left: 10px;
+    text-wrap: wrap;
+ 
+}
+
+/* homecontents */
+.homecontents{
+  width: 50%;
+  font-size: large;
+  margin-left: 5px;
+  padding-left: 10px;
+  text-wrap: wrap;
+
+  margin-right: 30px;
+}
+
+
+.homesubheaders{
+  position: absolute;
+  top: -30px;
+  color: green;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+ 
+
+
+.home1{
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+/* LINKS */
+
+.link{
+
+    padding: 30px 10px;
+    margin-top: 10px;
+}
+
+.links{
+
+    text-align: center;
+    word-spacing: 1em;
+
+}
+
+
+
+/* FOOTER...NO CSS GOES BELOW THIS LINE OTHER THAN FOOTER */
+
+footer{
+    background: linear-gradient(to right,rgb(1, 84, 1),green,
+   green,  rgb(1, 84, 1));
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 5px;
+    display: block;
+}
+
+footer a{
+    color: white;
+}
+
+.contacts{
+    margin: 20px;
+    margin-left: 30px;
+}
+
+.contacts button{
+    border-radius: 50%;
+    border: none;
+    background-color: green;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start of copy and paste w3 */
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 770px;
+    max-height: 450px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: white;
+     background: linear-gradient(to top ,black,rgba(0, 0, 0, 0.71),transparent);
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+
+    align-items: baseline;
+
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 3px;
+    width: 100%;
+    height: 100px;
+    /* text-align: center; */
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    /* animation-name: slide; */
+    animation-duration: 3s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .9}
+    to {opacity: 1}
+  }
+
+  /* @keyframes slide {
+    from {right: -1000px}
+    to {right: 0}
+  } */
+
+
+
+
+  .flexbox2{
+    display: flex;
+    display: block;
+    position: relative;
+    border: 2px solid green;
+    margin: 0 5%;
+
+    
+
+    height: 84%;
+    width: 70%;
+    overflow: hidden;
+    background-color: green;
+    /* display: none; */
+
+    margin-top: 20px;
+    padding: 0;
+
+    border-radius: 10px;
+
+   
+
+}
+
+/* Slideshow container inside side FLEXBOX2*/
+.slideshow{
+    max-width: 770px;
+    max-height: 460px;
+    
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+   
+  }
+  
+  /* Hide the images by default */
+  .mySlides2 {
+    display: none;
+  }
+  
+   /* Hide the images by default */
+   .hacky {
+    display: none;
+  }
+
+   /* Hide the images by default */
+   .hacky2 {
+    display: none;
+  }
+
+   /* Hide the images by default */
+   .life {
+    display: none;
+  }
+
+  /* Hide the images by default */
+  .mark {
+    display: none;
+  }
+
+
+   
+
+
+
+
+  /* css for the UPDATES PAGE */
+
+  .filters{
+    display: none;
+    background-color: rgba(128, 128, 128, 0.406);
+  margin: 2px 20%;
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px ridge red;
+
+    
+  }
+
+  .filters2{
+    display: none;
+    background-color: rgba(128, 128, 128, 0.406);
+  margin: 2px 20%;
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px ridge red;
+
+    
+  }
+
+
+  .filters button{
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+  }
+
+  #close{
+    color: rgb(4, 90, 4);
+    margin-left: 70px;
+    margin-top: 20px;
+    
+    position: absolute;
+  }
+
+  #close2{
+    color: red;
+    margin-left: 70px;
+    margin-top: 20px;
+    
+    position: absolute;
+  }
+
+
+.textarea{
+    width: 80%;
+    height: 150px;
+    background-color: green;
+    overflow-y: hidden;
+    margin: auto;
+    padding: 0 20px 0 0;
+    display: none;
+}
+
+#text{
+  position: relative ;
+  width: 100%;
+  height: 100%;
+  padding: 10px 30px 10px 10px;
+
+}
+
+.gotosell{
+  color: white;
+  background-color: green;
+  margin-left: 10px;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.read{
+  display: none;
+}
+
+.more{
+  display: block;
+}
+
+ 
+
+/* RESPONSIVE CSS FOR ALL  PAGES */
+
+@media screen and (max-width:768px){
+
+  .flexbox{
+
+      border: 2px solid green;
+      margin: 0 5px;
+      height: 30%;
+      overflow: hidden;
+      background-color: white;
+      display: block;
+  
+      border-radius: 10px;
+  
+  }
+
+  .noticeboard{
+    position: relative;
+    display: none;
+  }
+
+  .noticeboard2{
+    display: none;
+  }
+
+  .noticeboard2container{
+    /* background-color: greenyellow; */
+    margin: 0; 
+    padding: 0;
+
+    min-height: max-content;
+    /* position: absolute; */
+    margin-bottom: 400px;
+
+   
+  }
+
+  .homecontents{
+    width: 100%;
+}
+
+.homecontainer{
+ 
+  margin: 0 5px; 
+  padding: 20px 5px;
+  position: relative;
+  /* background-color: #717171; */
+
+  top: -45px;
+}
+
+  .updates{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 100%;
+  
+}
+
+.display{
+  
+  width: 100%;
+  height: 250px;
+  position: relative;
+  border: 2px solid green;
+  border-radius: 8px;
+  overflow: hidden;
+
+
+}
+
+.container{
+  margin: 0 5px; 
+  padding: 20px 5px;
+}
+
+.contents{
+  width: 100%;
+ 
+}
+
+                .btn1{
+                  width: 30%;
+                  margin-left: 8px;
+                  
+                  
+                }
+
+                .btn2{
+                   width: 30%;
+                   margin-left: 2px;
+                }
+
+                .btn3{
+                   width: 30%;
+                   margin-left: 2px;
+                }
+
+
+  .nav{
+ padding: 0; 
+ margin-right: 2px; 
+ background: none;
+  } 
+  
+  
+  .mainheader{
+     
+    width: 100%;
+    
+}
+
+.logo{
+    width: 35%;
+    font-family: 'Brush Script MT' ,'Brush Script Std', cursive,!important;
+    font-weight: bolder;
+    font-size: 300%;
+    
+}
+
+.sidebar{
+  width: 55%;
+ 
+  
+}
+
+body{
+  width: 100%;
+  
+  border-radius: 30px;
+}
+
+
+.sidenavigation{
+   
+  position: absolute;
+  margin-right: 5px;
+  width: 90%;
+   
+  top: 10px; 
+}
+
+.side{
+
+  justify-content: center;
+  width: 100%;
+  height: 78vh;
+ overflow-x: hidden;
+
+ background: linear-gradient(to top,transparent,transparent) , url(../images/BEACH3.jpg) no-repeat fixed center center;
+
+ background-position: center;
+ background-size: cover;
+}
+
+.flexbox2{
+  display: none;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+
+.logIn{
+  
+  background-color: green;
+  width: 80%;
+  height: 65%;
+   line-height: 30px;
+  padding-top: 40px;
+    
+}
+
+.Signin{
+  width: 90%;
+  height: 75%;
+  padding-top: 40px;
+  line-height: 20px;
+  
+}
+
+.Signin input{
+width: 85%;
+height: 40px;
+border-radius: 4px;
+border: none;
+padding-left: 10px;
+margin-bottom: 10px;
+line-height: 10px;
+
+}
+
+.logIn input{
+
+width: 85%;
+height: 40px;
+border-radius: 4px;
+border: none;
+padding-left: 10px;
+}
+
+.text{
+  font-size: 28px;
+  width: 95%;
+
+  background: linear-gradient(to top ,rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.71),transparent);
+ 
+} 
+
+.text p{
+  margin-top: 50px;
+}
+
+.slideshow-container {
+  max-width: 100%;
+  max-height: 100%;
+  
+  
+  overflow: hidden;
+  margin: auto;
+}
+
+.flex1{
+  height: 100%;
+  width: 100%;
+}
+
+.debate{
+  height: 100%;
+  width: 100%;
+}
+
+.conect{
+  
+ height: 30vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+footer{
+  padding-bottom: 5px;
+  margin-bottom: 0;
+}
+
+form{
+  background-color: red;
+  color: white;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+ margin-left: 0;
+  border-radius: 30px;
+  min-height: max-content;
+  
+}
+
+.filters2{
+  display: none;
+  background-color: gold;
+margin: 2px 5%;
+padding: 10px 10px;
+text-align: center;
+border-radius: 8px;
+border: 1px ridge red;
+
+  
+}
+
+.read{
+  display: block;
+}
+
+.more{
+  display: none;
+}
+ 
+}
