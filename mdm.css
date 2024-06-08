@@ -925,19 +925,22 @@ footer a{
 }
 
                 .btn1{
-                  width: 24%;
+                  height: 58px;
+                  width: 30%;
                   margin-left: 8px;
                   
                   
                 }
 
                 .btn2{
-                   width: 24%;
+                   height: 58px;
+                   width: 30%;
                    margin-left: 2px;
                 }
 
                 .btn3{
-                   width: 24%;
+                   height: 58px;
+                   width: 30%;
                    margin-left: 2px;
                 }
 
