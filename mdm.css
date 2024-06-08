@@ -992,7 +992,7 @@ body{
   height: 78vh;
  overflow-x: hidden;
 
- background: linear-gradient(to top,transparent,transparent) , url(../images/BEACH3.jpg) no-repeat fixed center center;
+ background: linear-gradient(to top,transparent,transparent) , url(BEACH3.jpg) no-repeat fixed center center;
 
  background-position: center;
  background-size: cover;
