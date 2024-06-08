@@ -860,7 +860,7 @@ footer a{
   }
 
   .noticeboard{
-    position: relative;
+    /*position: relative;*/
     display: none;
   }
 
